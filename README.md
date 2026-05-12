@@ -4,8 +4,6 @@
 
 MindGuard AI is a **multi-agent mental health support platform** that combines a **Node.js API**, a **Python AI microservice (FastAPI + LangGraph)**, and a **React client**. It is designed for **safe, session-based conversations** with optional **voice** (LiveKit + Deepgram), **retrieval-augmented** answers (Qdrant), **long-term memory** (mem0), and **graph context** (Neo4j). A **LangGraph** pipeline performs risk triage, routing, context assembly, and crisis-aware response generation with **MongoDB-backed checkpoints**.
 
-> **Reference materials:** The narrative below aligns with *MindGuard Problem statement with proposed solution* (PDF). To keep it with the repo, add **`MindGuard Problem statement with proposed solution.pdf`** at the project root (optional).
-
 ---
 
 ## Why MindGuard exists (problem statement)
